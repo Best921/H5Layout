@@ -1,3 +1,7 @@
+/* 兼容性-当浏览器无法识别新增标签，统一当DIV处理 */
+header,nav,section,aside,article,footer{
+	display: block;
+}
 /* all tag */
 *{
 	font-family: 'Arial';
